@@ -48,7 +48,7 @@ spec:
   - host: "app2.saikiransudhireddy.com"
     http:
       paths:
-      - path: /sai
+      - path: /
         pathType: Prefix
         backend:
           service:
