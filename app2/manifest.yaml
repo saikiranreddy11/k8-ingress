@@ -41,7 +41,7 @@ metadata:
         alb.ingress.kubernetes.io/scheme: internet-facing
         alb.ingress.kubernetes.io/target-type: ip
         alb.ingress.kubernetes.io/tags: Environment=dev,Project=rob
-        alb.ingress.kubernetes.io/group.name: saki
+        alb.ingress.kubernetes.io/group.name: sakiran
 spec:
   ingressClassName: alb
   rules:
