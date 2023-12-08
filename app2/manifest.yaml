@@ -40,7 +40,7 @@ metadata:
     annotations:
         alb.ingress.kubernetes.io/scheme: internet-facing
         alb.ingress.kubernetes.io/target-type: ip
-        alb.ingress.kubernetes.io/tags: Environment=dev,Project=roboshop
+        alb.ingress.kubernetes.io/tags: Environment=dev,Project=rob
         alb.ingress.kubernetes.io/group.name: saikiran  
 spec:
   ingressClassName: alb
