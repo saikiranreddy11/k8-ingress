@@ -41,14 +41,14 @@ metadata:
         alb.ingress.kubernetes.io/scheme: internet-facing
         alb.ingress.kubernetes.io/target-type: ip
         alb.ingress.kubernetes.io/tags: Environment=dev,Project=roboshop
-        alb.ingress.kubernetes.io/group.name: saikiran
+        alb.ingress.kubernetes.io/group.name: saikiran  
 spec:
   ingressClassName: alb
   rules:
   - host: "app2.saikiransudhireddy.com"
     http:
       paths:
-      - path: /
+      - path: /404.html
         pathType: Prefix
         backend:
           service:
